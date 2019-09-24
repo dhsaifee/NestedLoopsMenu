@@ -15,6 +15,7 @@ namespace NestedLoopsMenu
 
         }
 
+
         static void CreateMenu()
         {
 
@@ -46,6 +47,8 @@ namespace NestedLoopsMenu
                 }
             }
         }
+
+
         static string GetMenuChoice()
         {
             Console.Write("\n\nPlease enter 1 to count to ten, 2 to show a box of stars and 3 to exit: ");
@@ -60,6 +63,7 @@ namespace NestedLoopsMenu
             return choice;
         }
 
+
         static void CountToTen()
         {
             for(int i = 1; i < 11; i++)
@@ -67,6 +71,7 @@ namespace NestedLoopsMenu
                 Console.WriteLine(i);
             }
         }
+
 
         static void BoxOfStars()
         {
